@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="weather.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button class="searchbtn"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <div class="weather">
+            <img src="images/drizzle.png" class="weatherimg" alt="">
+            <h1></h1>
+            <h2></h2>
+            <div class="others">
+              <div class="wind">
+                <img src="images/wind.png" alt="">
+                <div class="speed">
+                    <p class="detail" id="windspeed"></p>
+                    <p class="property">windspeed</p>
+                </div>
+              </div>
+                <div class="wind">
+                    <img src="images/humidity.png"  alt="">
+                    <div class="speed">
+                        <p class="detail" id="humidity"></p>
+                        <p class="property">Humidity</p>
+                    </div> 
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
